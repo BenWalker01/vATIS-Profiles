@@ -4,12 +4,20 @@
     {
       "Name": "Aberdeen",
       "Identifier": "EGPD",
-      "Contractions": [
+      "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPD",
+          "Spoken": "ECHO GOLF PAPA DELTA"
         }
-    ],
+      ],
       "AtisFrequency": 21855,
       "ObservationTime": {
         "Enabled": false,
@@ -89,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPD",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPD",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
