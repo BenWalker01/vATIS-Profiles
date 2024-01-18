@@ -6,9 +6,18 @@
       "Identifier": "EGPE",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPE",
+          "Spoken": "ECHO GOLF PAPA ECHO"
+        }
+      ],
       "AtisFrequency": 24700,
       "ObservationTime": {
         "Enabled": false,
@@ -97,9 +106,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPE",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPE",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

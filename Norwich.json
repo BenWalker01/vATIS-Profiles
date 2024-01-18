@@ -6,9 +6,18 @@
       "Identifier": "EGSH",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGGW",
+          "Spoken": "ECHO GOLF SIERRA HOTEL"
+        }
+      ],
       "AtisFrequency": 28630,
       "ObservationTime": {
         "Enabled": false,
@@ -83,9 +92,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSH",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSH",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

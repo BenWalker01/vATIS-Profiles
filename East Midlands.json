@@ -6,9 +6,18 @@
       "Identifier": "EGNX",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNX",
+          "Spoken": "ECHO GOLF NOVEMBER X-RAY"
+        }
+      ],
       "AtisFrequency": 22680,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNX",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNX",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

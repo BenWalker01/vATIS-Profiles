@@ -6,9 +6,18 @@
       "Identifier": "EGLC",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGLC",
+          "Spoken": "ECHO GOLF lIMA CHARLIE"
+        }
+      ],
       "AtisFrequency": 36355,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLC",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLC",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -345,9 +354,18 @@
       "Identifier": "EGKB",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGKB",
+          "Spoken": "ECHO GOLF KILO BRAVO"
+        }
+      ],
       "AtisFrequency": 35680,
       "ObservationTime": {
         "Enabled": false,
@@ -422,9 +440,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKB",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKB",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -679,9 +697,18 @@
       "Identifier": "EGMC",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGMC",
+          "Spoken": "ECHO GOLF MIKE CHARLIE"
+        }
+      ],
       "AtisFrequency": 36055,
       "ObservationTime": {
         "Enabled": false,
@@ -763,9 +790,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGMC",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGMC",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

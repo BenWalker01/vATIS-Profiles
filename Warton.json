@@ -6,9 +6,18 @@
       "Identifier": "EGNH",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNH",
+          "Spoken": "ECHO GOLF NOVEMBER HOTEL"
+        }
+      ],
       "AtisFrequency": 27205,
       "ObservationTime": {
         "Enabled": false,
@@ -97,9 +106,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNH",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNH",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -323,9 +332,18 @@
       "Identifier": "EGNO",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNO",
+          "Spoken": "ECHO GOLF NOVEMBER OSCAR"
+        }
+      ],
       "AtisFrequency": 21730,
       "ObservationTime": {
         "Enabled": false,
@@ -400,9 +418,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNO",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNO",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

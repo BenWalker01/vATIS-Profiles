@@ -6,9 +6,18 @@
       "Identifier": "EGPK",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPK",
+          "Spoken": "ECHO GOLF PAPA KILO"
+        }
+      ],
       "AtisFrequency": 21130,
       "ObservationTime": {
         "Enabled": false,
@@ -83,9 +92,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPK",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPK",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

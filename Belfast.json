@@ -6,9 +6,18 @@
       "Identifier": "EGAA",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGAA",
+          "Spoken": "ECHO GOLF ALPHA ALPHA"
+        }
+      ],
       "AtisFrequency": 26130,
       "ObservationTime": {
         "Enabled": false,
@@ -102,9 +111,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -353,17 +362,24 @@
           }
         }
       }
-    
-      
     },
     {
       "Name": "City",
       "Identifier": "EGAC",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGAC",
+          "Spoken": "ECHO GOLF ALPHA CHARLIE"
+        }
+      ],
       "AtisFrequency": 24580,
       "ObservationTime": {
         "Enabled": false,
@@ -438,9 +454,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

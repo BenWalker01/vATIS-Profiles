@@ -36,6 +36,18 @@
         {
           "String": "119.725",
           "Spoken": "ONE ONE NINER DECIMAL SEVEN TWO FIVE"
+        },
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGGW",
+          "Spoken": "ECHO GOLF GOLF WHISKY"
         }
       ],
       "AtisFrequency": 28080,
@@ -203,7 +215,7 @@
           "Altitude": 90
         }
       ],
-      "atisFormat":{
+      "atisFormat": {
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
@@ -329,7 +341,7 @@
           "Altitude": 90
         }
       ],
-      "atisFormat":{
+      "atisFormat": {
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
@@ -464,7 +476,7 @@
           "Altitude": 90
         }
       ],
-      "atisFormat":{
+      "atisFormat": {
         "altimeter": {
           "pronounceDecimal": false,
           "template": {

@@ -6,9 +6,18 @@
       "Identifier": "EGPH",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPH",
+          "Spoken": "ECHO GOLF PAPA HOTEL"
+        }
+      ],
       "AtisFrequency": 31355,
       "ObservationTime": {
         "Enabled": false,
@@ -93,9 +102,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPH",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPH",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

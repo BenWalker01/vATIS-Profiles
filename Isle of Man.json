@@ -6,9 +6,18 @@
       "Identifier": "EGNS",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNS",
+          "Spoken": "ECHO GOLF NOVEMBER SIERRA"
+        }
+      ],
       "AtisFrequency": 23880,
       "ObservationTime": {
         "Enabled": false,
@@ -97,9 +106,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNS",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNS",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

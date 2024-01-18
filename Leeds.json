@@ -6,9 +6,18 @@
       "Identifier": "EGNM",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNM",
+          "Spoken": "ECHO GOLF NOVEMBER MIKE"
+        }
+      ],
       "AtisFrequency": 18030,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNM",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNM",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

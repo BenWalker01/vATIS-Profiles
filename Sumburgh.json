@@ -6,9 +6,18 @@
       "Identifier": "EGPB",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPB",
+          "Spoken": "ECHO GOLF PAPA BRAVO"
+        }
+      ],
       "AtisFrequency": 25855,
       "ObservationTime": {
         "Enabled": false,
@@ -97,9 +106,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPB",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPB",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

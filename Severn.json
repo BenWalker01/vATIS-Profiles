@@ -6,9 +6,18 @@
       "Identifier": "EGFF",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGFF",
+          "Spoken": "ECHO GOLF FOXTROT FOXTROT"
+        }
+      ],
       "AtisFrequency": 32480,
       "ObservationTime": {
         "Enabled": false,
@@ -83,9 +92,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGFF",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGFF",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -340,9 +349,18 @@
       "Identifier": "EGGD",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGGD",
+          "Spoken": "ECHO GOLF GOLF DELTA"
+        }
+      ],
       "AtisFrequency": 26030,
       "ObservationTime": {
         "Enabled": false,
@@ -422,9 +440,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGD",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGD",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -681,6 +699,18 @@
         {
           "String": "ST",
           "Spoken": "SAINT"
+        },
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGSY",
+          "Spoken": "ECHO GOLF SIERRA YANKEE"
         }
       ],
       "AtisFrequency": 30560,
@@ -715,11 +745,6 @@
           "Template": "ST ATHAN INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
-      "contractions": [
-        {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
@@ -762,9 +787,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSY",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSY",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

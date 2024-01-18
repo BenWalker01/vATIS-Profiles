@@ -6,9 +6,18 @@
       "Identifier": "EGNT",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNT",
+          "Spoken": "ECHO GOLF NOVEMBER TANGO"
+        }
+      ],
       "AtisFrequency": 18380,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNT",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNT",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -345,15 +354,23 @@
         }
       }
     },
-
     {
       "Name": "Teesside",
       "Identifier": "EGNV",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGNV",
+          "Spoken": "ECHO GOLF NOVEMBER VICTOR"
+        }
+      ],
       "AtisFrequency": 32380,
       "ObservationTime": {
         "Enabled": false,
@@ -428,9 +445,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNV",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNV",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

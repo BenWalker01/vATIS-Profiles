@@ -6,9 +6,18 @@
       "Identifier": "EGHI",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGHI",
+          "Spoken": "ECHO GOLF HOTEL INDIA"
+        }
+      ],
       "AtisFrequency": 30880,
       "ObservationTime": {
         "Enabled": false,
@@ -83,9 +92,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 9,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHI",
-            "Enabled": false
+          "Ordinal": 9,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHI",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -345,9 +354,18 @@
       "Identifier": "EGHH",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGHH",
+          "Spoken": "ECHO GOLF HOTEL HOTEL"
+        }
+      ],
       "AtisFrequency": 33730,
       "ObservationTime": {
         "Enabled": false,
@@ -427,9 +445,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHH",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGHH",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

@@ -6,9 +6,18 @@
       "Identifier": "EGPF",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGPF",
+          "Spoken": "ECHO GOLF PAPA FOXTROT"
+        }
+      ],
       "AtisFrequency": 29575,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPF",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPF",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

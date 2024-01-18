@@ -6,9 +6,18 @@
       "Identifier": "EGJJ",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGJJ",
+          "Spoken": "ECHO GOLF JULIET JULIET"
+        }
+      ],
       "AtisFrequency": 34680,
       "ObservationTime": {
         "Enabled": false,
@@ -88,9 +97,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGJJ",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGJJ",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -310,7 +319,6 @@
               "high": 976,
               "altitude": 80
             }
-            
           ],
           "template": {
             "text": "TRANSITION LEVEL {trl}",
@@ -331,9 +339,18 @@
       "Identifier": "EGJB",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGJB",
+          "Spoken": "ECHO GOLF JULIET BRAVO"
+        }
+      ],
       "AtisFrequency": 18900,
       "ObservationTime": {
         "Enabled": false,
@@ -413,9 +430,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 10,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGJB",
-            "Enabled": false
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGJB",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

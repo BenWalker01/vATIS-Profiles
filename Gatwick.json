@@ -73,6 +73,18 @@
         {
           "string": "08R",
           "spoken": "ZERO EIGHT RIGHT"
+        },
+        {
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGKK",
+          "Spoken": "ECHO GOLF KILO KILO"
         }
       ],
       "AirportConditionDefinitions": [
@@ -127,9 +139,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

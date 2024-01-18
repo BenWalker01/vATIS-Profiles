@@ -6,9 +6,18 @@
       "Identifier": "EGSS",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGSS",
+          "Spoken": "ECHO GOLF SIERRA SIERRA"
+        }
+      ],
       "AtisFrequency": 27180,
       "ObservationTime": {
         "Enabled": false,
@@ -93,9 +102,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSS",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSS",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -350,9 +359,18 @@
       "Identifier": "EGGW",
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGGW",
+          "Spoken": "ECHO GOLF GOLF WHISKY"
+        }
+      ],
       "AtisFrequency": 20580,
       "ObservationTime": {
         "Enabled": false,
@@ -437,9 +455,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGW",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGW",
+          "Enabled": false
         }
       ],
       "NotamDefinitions": [],
@@ -766,9 +784,18 @@
       ],
       "contractions": [
         {
-        "String": "LVPS",
-        "Spoken": "L V PEES"
-        }],
+          "String": "LVPS",
+          "Spoken": "L V PEES"
+        },
+        {
+          "String": "LOGON",
+          "Spoken": "LOG ON"
+        },
+        {
+          "String": "EGSC",
+          "Spoken": "ECHO GOLF SIERRA CHARLIE"
+        }
+      ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
@@ -811,9 +838,9 @@
           "Enabled": false
         },
         {
-            "Ordinal": 11,
-            "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSC",
-            "Enabled": false
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSC",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
