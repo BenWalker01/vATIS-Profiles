@@ -1,5 +1,8 @@
+Summary of changes dated 18/01/24
+Voice atis will now read the Datalink clearances logon code with the correct phonetic letter
+
 Summary of changed dated 09/11/23
-updated Heathrow to use ONH rather than altimeter  
+Updated Heathrow to use ONH rather than altimeter  
 Corrected the order that the notams appear in some profiles  
 added preset airport conditions and the correct way to say LVPS:  
 - LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY
@@ -12,8 +15,6 @@ added preset airport conditions and the correct way to say LVPS:
 - FOR CLEARANCE CONTACT XXX ON XXX.XXX
 - XXX IS CLOSED, ATC CONTINUES WITH XXX ON XXX.XXX
 - DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGXX
-
-
 
 Summary of changes dated 03/11/23  
 Updates Frequencies to use the new .833 or vatsim equivalent  
