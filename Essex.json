@@ -105,6 +105,11 @@
           "Ordinal": 11,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSS",
           "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "Report if you are able to use the east and west taxi lines on first contact",
+          "Enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -458,6 +463,11 @@
           "Ordinal": 11,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGW",
           "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "Report if you require backtrack on first contact",
+          "Enabled": true
         }
       ],
       "NotamDefinitions": [],

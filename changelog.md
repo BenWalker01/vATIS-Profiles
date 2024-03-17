@@ -1,3 +1,6 @@
+Summary of changes dated 17/03/24
+Added airport specific conditions
+
 Summary of changes dated 18/01/24
 Voice atis will now read the Datalink clearances logon code with the correct phonetic letter
 

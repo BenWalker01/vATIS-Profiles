@@ -142,6 +142,11 @@
           "Ordinal": 11,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK",
           "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "Report if taxiway L is useable between QA and P on first contact",
+          "Enabled": true
         }
       ],
       "notamDefinitions": [],
