@@ -103,8 +103,13 @@
         },
         {
           "Ordinal": 12,
-          "Text": "Report if backtrack is required on first contact",
+          "Text": "REPORT IF BACK TRACK IS REQUIRED ON FIRST CONTACT.",
           "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "WHERE POSSIBLE PILOTS ARE REQUESTED TO VACATE NO LATER THAN DELTA.",
+          "Enabled": true
         }
       ],
       "notamDefinitions": [],
