@@ -83,7 +83,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -98,7 +98,12 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPF",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPF.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 7,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
           "Enabled": false
         }
       ],

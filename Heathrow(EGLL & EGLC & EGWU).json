@@ -46,8 +46,8 @@
           "Spoken": "LOG ON"
         },
         {
-          "String": "EGGW",
-          "Spoken": "ECHO GOLF GOLF WHISKY"
+          "String": "EGLL",
+          "Spoken": "ECHO GOLF LIMA LIMA"
         }
       ],
       "AtisFrequency": 28080,
@@ -118,7 +118,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE.",
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY.",
           "Enabled": false
         },
         {
@@ -148,7 +148,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -168,17 +168,32 @@
         },
         {
           "Ordinal": 11,
-          "Text": "START & TAXI CONTACT DIRECTOR ON 119.725.",
+          "Text": "START & TAXI CONTACT DIRECTOR ON 119.730.",
           "Enabled": true
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS SHOULD EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL.",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLL.",
           "Enabled": false
         },
         {
           "Ordinal": 13,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 14,
+          "Text": "PILOTS SHOULD EXPECT A CHANGE TO RUNWAY 27L FOR LANDING AT 1500 LOCAL.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 15,
           "Text": "PILOTS SHOULD EXPECT A CHANGE TO RUNWAY 27R FOR LANDING AT 1500 LOCAL.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 16,
+          "Text": "PILOTS ARE REMINDED TO REMAIN ON THE TAXIWAY CENTRELINE UNTIL STAND GUIDANCE IS ACTIVATED. INFORM ATC IF YOU ARE AWAITING GUIDANCE OR IF THE GUIDANCE FAILS.",
           "Enabled": false
         }
       ],
@@ -304,8 +319,28 @@
         },
         {
           "Ordinal": 7,
-          "Text": "NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.725. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE BEFORE DEPARTURE FROM HEATHROW DIRECTOR 119.725.",
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.575.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 8,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 120.675.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "NO TOWER SERVICES AVAILABLE. APPROACH SERVICES FROM HEATHROW DIRECTOR 119.730. ALL DEPARTURES REQUIRE A CLEARANCE AND RELEASE BEFORE DEPARTURE FROM HEATHROW DIRECTOR 119.730.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGWU.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.575 WHEN READY FOR START.",
+          "Enabled": false
         }
       ],
       "NotamDefinitions": [],
@@ -404,7 +439,7 @@
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE.",
+          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY.",
           "Enabled": false
         },
         {
@@ -434,12 +469,32 @@
         },
         {
           "Ordinal": 7,
-          "Text": "NO TOWER OR APPROACH SERVICES AVAILABLE. IFR DEPARTURES MAINTAIN 3000FT AND CONTACT HEATHROW DIRECTOR 119.725 WHEN AIRBORNE.",
-          "Enabled": true
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.830.",
+          "Enabled": false
         },
         {
           "Ordinal": 8,
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.080.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
+          "Text": "NO TOWER OR APPROACH SERVICES AVAILABLE. IFR DEPARTURES MAINTAIN 3000FT AND CONTACT HEATHROW DIRECTOR 119.730 WHEN AIRBORNE.",
+          "Enabled": true
+        },
+        {
+          "Ordinal": 10,
           "Text": "NO ATC SERVICES AVAILABLE. ALL TRAFFIC MONITOR UNICOM 122.800.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLC.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
           "Enabled": false
         }
       ],

@@ -97,7 +97,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -112,7 +112,12 @@
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
           "Enabled": false
         }
       ],
@@ -246,17 +251,32 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.830 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
           "Ordinal": 8,
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 9,
           "Text": "FOR CLEARANCE CONTACT TOWER ON 122.830.",
           "Enabled": false
         },
         {
+          "Ordinal": 10,
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC.",
+          "Enabled": false
+        },
+        {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.830 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": false
         }
       ],

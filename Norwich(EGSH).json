@@ -83,7 +83,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 124.255 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -93,7 +93,12 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSH",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSH.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 10,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 124.255 WHEN READY FOR START.",
           "Enabled": false
         }
       ],

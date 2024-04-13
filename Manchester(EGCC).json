@@ -1,9 +1,7 @@
 {
   "name": "Manchester",
-  "id": "c6fa55e1-6736-4c6b-acec-65414e3b8eab",
   "composites": [
     {
-      "id": "1e66596a-ac0a-401a-9c97-ea18169bab1c",
       "name": "Manchester",
       "identifier": "EGCC",
       "atisType": "Combined",
@@ -11,7 +9,7 @@
         "low": "A",
         "high": "Z"
       },
-      "frequency": 121980000,
+      "frequency": 21980,
       "atisVoice": {
         "useTextToSpeech": true,
         "voice": "UK Female"
@@ -23,7 +21,6 @@
       "notamsBeforeFreeText": true,
       "presets": [
         {
-          "id": "0188d9c8-46ce-47fd-9e0a-c78efd927328",
           "name": "23R",
           "airportConditions": "",
           "notams": "",
@@ -33,7 +30,6 @@
           }
         },
         {
-          "id": "298b3005-0cd6-4a7c-9adc-916e9c8df15e",
           "name": "23 Duals",
           "notams": "",
           "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 23R, DEPARTURE RUNWAY 23L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
@@ -42,7 +38,6 @@
           }
         },
         {
-          "id": "e3744774-63f4-4ef1-b46e-3b29d2c30662",
           "name": "05L",
           "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 05L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -50,7 +45,6 @@
           }
         },
         {
-          "id": "7a231f22-7e63-435e-9db8-ce09bdc08ddf",
           "name": "05 Duals",
           "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 05R, DEPARTURE RUNWAY 05L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -58,7 +52,6 @@
           }
         },
         {
-          "id": "a336c75a-f972-43d7-89c9-11def18e537a",
           "name": "23L",
           "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 23L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -66,7 +59,6 @@
           }
         },
         {
-          "id": "d775f48c-eb22-4c8e-b720-4c95f21e9a69",
           "name": "05R",
           "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 05R. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -141,7 +133,7 @@
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
+          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
           "Enabled": false
         },
         {
@@ -161,7 +153,12 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGCC",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGCC.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
           "Enabled": false
         }
       ],
