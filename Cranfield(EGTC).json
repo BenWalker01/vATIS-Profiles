@@ -18,7 +18,7 @@
                     "Spoken": "ECHO GOLF TANGO CHARLIE"
                 }
             ],
-            "AtisFrequency": 121.880,
+            "AtisFrequency": 21880,
             "ObservationTime": {
                 "Enabled": false,
                 "Time": 0
