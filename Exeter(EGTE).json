@@ -18,7 +18,7 @@
                     "Spoken": "ECHO GOLF TANGO ECHO"
                 }
             ],
-            "AtisFrequency": 121.880,
+            "AtisFrequency": 19330,
             "ObservationTime": {
                 "Enabled": false,
                 "Time": 0
@@ -36,18 +36,18 @@
             "useDecimalTerminology": true,
             "Presets": [
                 {
-                    "Name": "03",
+                    "Name": "08",
                     "AirportConditions": null,
                     "Notams": null,
                     "ArbitraryText": null,
-                    "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 03. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+                    "Template": "EXETER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 08. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
                 },
                 {
-                    "Name": "21",
+                    "Name": "26",
                     "AirportConditions": null,
                     "Notams": null,
                     "ArbitraryText": null,
-                    "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 21. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+                    "Template": "EXETER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 26. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
                 }
             ],
             "AirportConditionDefinitions": [
@@ -88,17 +88,17 @@
                 },
                 {
                     "Ordinal": 8,
-                    "Text": "FOR CLEARANCE CONTACT TOWER ON 134.930.",
+                    "Text": "FOR CLEARANCE CONTACT TOWER ON 119.805.",
                     "Enabled": false
                 },
                 {
                     "Ordinal": 9,
-                    "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNR.",
+                    "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGTE.",
                     "Enabled": false
                 },
                 {
                     "Ordinal": 10,
-                    "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.930 WHEN READY FOR START.",
+                    "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.805 WHEN READY FOR START.",
                     "Enabled": false
                 },
                 {
