@@ -1,8 +1,6 @@
 {
   "Name": "Aberdeen",
-  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Aberdeen(EGPD).json",
-  "updateSerial": 2025020101,
-  "stations": [
+  "Composites": [
     {
       "Name": "Aberdeen",
       "Identifier": "EGPD",
