@@ -4,7 +4,8 @@ from datetime import datetime
 
 input_dir = 'data'
 output_dir = 'profiles'
-update_serial = 1970010100
+update_serial = int(datetime.now().strftime("%Y%m%d00"))
+
 
 for filename in os.listdir(input_dir):
     if filename.endswith('.json'):
@@ -21,7 +22,7 @@ for filename in os.listdir(input_dir):
             "Name": data.get("Name",name),
             "updateUrl": update_url,
             "updateSerial": update_serial,
-            "stations": data.get("Composites", [])
+            "stations": data.get("stations", [])
         }
         
         # Write the updated data to the output file
