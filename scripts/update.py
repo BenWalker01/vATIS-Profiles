@@ -3,7 +3,7 @@ import json
 import sys
 from datetime import datetime
 
-input_dir = os.path.join(os.getcwd(), 'data')
+input_dir = os.path.abspath('data')
 
 # Get the list of filenames from the command line arguments
 filenames_to_update = sys.argv[1:]
