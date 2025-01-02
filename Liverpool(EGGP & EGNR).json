@@ -1,9 +1,9 @@
 {
-  "Name": "Belfast",
+  "Name": "Liverpool",
   "Composites": [
     {
-      "Name": "Aldergrove",
-      "Identifier": "EGAA",
+      "Name": "Liverpool",
+      "Identifier": "EGGP",
       "contractions": [
         {
           "String": "LVPS",
@@ -14,11 +14,11 @@
           "Spoken": "LOG ON"
         },
         {
-          "String": "EGAA",
-          "Spoken": "ECHO GOLF ALPHA ALPHA"
+          "String": "EGGP",
+          "Spoken": "ECHO GOLF GOLF PAPA"
         }
       ],
-      "AtisFrequency": 26130,
+      "AtisFrequency": 24330,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -36,32 +36,18 @@
       "useDecimalTerminology": true,
       "Presets": [
         {
-          "Name": "25",
+          "Name": "27",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "ALDERGROVE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 25. [TL]. [WX]. [NOTAMS] [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LIVERPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
-          "Name": "07",
+          "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "ALDERGROVE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
-        {
-          "Name": "35",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "ALDERGROVE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 35. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
-        {
-          "Name": "17",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "ALDERGROVE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 17. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LIVERPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
@@ -102,22 +88,22 @@
         },
         {
           "Ordinal": 8,
-          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.755.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 9,
-          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.300.",
+          "Text": "FOR CLEARANCE CONTACT GROUND ON 121.955.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAA.",
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 126.355.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.755 WHEN READY FOR START.",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGGP.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.955 WHEN READY FOR START.",
           "Enabled": false
         }
       ],
@@ -135,39 +121,43 @@
             {
               "low": 940,
               "high": 958,
-              "altitude": 90
+              "altitude": 80
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 85
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 80
+              "altitude": 70
             },
             {
               "low": 995,
-              "high": 1013,
-              "altitude": 75
+              "high": 1012,
+              "altitude": 65
             },
             {
-              "low": 1014,
+              "low": 1013,
               "high": 1031,
-              "altitude": 70
+              "altitude": 60
             },
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 65
+              "altitude": 55
             },
             {
               "low": 1050,
               "high": 1060,
-              "altitude": 60
+              "altitude": 50
             }
-          ]
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": false
@@ -175,8 +165,8 @@
       }
     },
     {
-      "Name": "City",
-      "Identifier": "EGAC",
+      "Name": "Hawarden",
+      "Identifier": "EGNR",
       "contractions": [
         {
           "String": "LVPS",
@@ -187,11 +177,11 @@
           "Spoken": "LOG ON"
         },
         {
-          "String": "EGAC",
-          "Spoken": "ECHO GOLF ALPHA CHARLIE"
+          "String": "EGNR",
+          "Spoken": "ECHO GOLF NOVEMBER ROMEO"
         }
       ],
-      "AtisFrequency": 24580,
+      "AtisFrequency": 25430,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -209,18 +199,18 @@
       "useDecimalTerminology": true,
       "Presets": [
         {
-          "Name": "22",
-          "AirportConditions": null,
-          "Notams": null,
-          "ArbitraryText": null,
-          "Template": "BELFAST INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 22. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
-        },
-        {
           "Name": "04",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BELFAST INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 04. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "HAWARDEN INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 04. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+        },
+        {
+          "Name": "22",
+          "AirportConditions": null,
+          "Notams": null,
+          "ArbitraryText": null,
+          "Template": "HAWARDEN INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 22. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
@@ -261,28 +251,23 @@
         },
         {
           "Ordinal": 8,
-          "Text": "PILOTS ARE REMINDED TO USE MINIMUM RUNWAY OCCUPANCY.",
+          "Text": "FOR CLEARANCE CONTACT TOWER ON 124.955.",
           "Enabled": false
         },
         {
           "Ordinal": 9,
-          "Text": "FOR CLEARANCE CONTACT TOWER ON 122.830.",
+          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNR.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGAC.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 124.955 WHEN READY FOR START.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.830 WHEN READY FOR START.",
-          "Enabled": false
-        },
-        {
-          "Ordinal": 12,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
-          "Enabled": false
+          "Enabled": true
         }
       ],
       "notamDefinitions": [],
@@ -299,39 +284,43 @@
             {
               "low": 940,
               "high": 958,
-              "altitude": 90
+              "altitude": 80
             },
             {
               "low": 959,
               "high": 976,
-              "altitude": 85
+              "altitude": 75
             },
             {
               "low": 977,
               "high": 994,
-              "altitude": 80
+              "altitude": 70
             },
             {
               "low": 995,
-              "high": 1013,
-              "altitude": 75
+              "high": 1012,
+              "altitude": 65
             },
             {
-              "low": 1014,
+              "low": 1013,
               "high": 1031,
-              "altitude": 70
+              "altitude": 60
             },
             {
               "low": 1032,
               "high": 1049,
-              "altitude": 65
+              "altitude": 55
             },
             {
               "low": 1050,
               "high": 1060,
-              "altitude": 60
+              "altitude": 50
             }
-          ]
+          ],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
         },
         "closingStatement": {
           "autoIncludeClosingStatement": false
