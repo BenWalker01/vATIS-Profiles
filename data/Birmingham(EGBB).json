@@ -1,6 +1,8 @@
 {
   "Name": "Birmingham",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Birmingham(EGBB).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Birmingham",
       "Identifier": "EGBB",

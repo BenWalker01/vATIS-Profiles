@@ -1,6 +1,8 @@
 {
   "Name": "Northumberland",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Northumberland(EGNT & EGNV).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Newcastle",
       "Identifier": "EGNT",

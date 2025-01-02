@@ -1,6 +1,8 @@
 {
   "Name": "Thames",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Thames(EGLC & EGKB & EGMC).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "City",
       "Identifier": "EGLC",

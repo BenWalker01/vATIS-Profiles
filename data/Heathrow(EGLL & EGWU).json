@@ -1,6 +1,8 @@
 {
   "Name": "Heathrow",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Heathrow(EGLL & EGWU).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Heathrow",
       "Identifier": "EGLL",

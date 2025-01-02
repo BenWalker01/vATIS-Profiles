@@ -1,6 +1,8 @@
 {
   "Name": "Farnborough",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Farnborough(EGLF).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Farnborough",
       "Identifier": "EGLF",

@@ -1,6 +1,8 @@
 {
   "Name": "Isle of Man",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Isle of Man(EGNS).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Ronaldsway",
       "Identifier": "EGNS",

@@ -1,6 +1,8 @@
 {
   "Name": "Norwich",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Norwich(EGSH).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Norwich",
       "Identifier": "EGSH",

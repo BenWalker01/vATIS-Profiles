@@ -1,6 +1,8 @@
 {
   "Name": "Essex",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Essex(EGSS & EGGW & EGSC).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Stansted",
       "Identifier": "EGSS",

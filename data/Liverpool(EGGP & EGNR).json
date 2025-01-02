@@ -1,6 +1,8 @@
 {
   "Name": "Liverpool",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Liverpool(EGGP & EGNR).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Liverpool",
       "Identifier": "EGGP",

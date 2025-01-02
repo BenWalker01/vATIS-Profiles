@@ -1,6 +1,8 @@
 {
   "Name": "Inverness",
-  "Composites": [
+  "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Inverness(EGPE).json",
+  "updateSerial": "2025010200",
+  "stations": [
     {
       "Name": "Inverness",
       "Identifier": "EGPE",
