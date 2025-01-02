@@ -42,7 +42,7 @@ for filename in filenames_to_update:
             print("There have been too many updates today. The script will now exit")
             sys.exit(1)
         
-        update_serial = f"{today_date}{new_serial_number:02d}"
+        update_serial = int(f"{today_date}{new_serial_number:02d}")
         
         update_url = f"https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/{name}.json"
         
