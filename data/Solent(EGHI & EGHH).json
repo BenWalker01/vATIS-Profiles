@@ -1,7 +1,7 @@
 {
   "Name": "Solent",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Solent(EGHI & EGHH).json",
-  "updateSerial": "2025010200",
+  "updateSerial": 2025010200,
   "stations": [
     {
       "Name": "Southampton",

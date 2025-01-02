@@ -1,7 +1,7 @@
 {
   "Name": "Channel Islands",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Channel Islands(EGJB & EGJJ).json",
-  "updateSerial": "2025010200",
+  "updateSerial": 2025010200,
   "stations": [
     {
       "Name": "Jersey",

@@ -1,7 +1,7 @@
 {
   "Name": "Lydd",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Lydd(EGMD).json",
-  "updateSerial": "2025010200",
+  "updateSerial": 2025010200,
   "stations": [
     {
       "Name": "Lydd",

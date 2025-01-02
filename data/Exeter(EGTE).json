@@ -1,7 +1,7 @@
 {
   "Name": "Exeter",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Exeter(EGTE).json",
-  "updateSerial": "2025010200",
+  "updateSerial": 2025010200,
   "stations": [
     {
       "Name": "Exeter",
