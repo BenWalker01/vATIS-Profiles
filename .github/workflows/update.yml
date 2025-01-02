@@ -1,0 +1,18 @@
+# Updates Id and name of profiles
+#
+# Triggered by:
+# Push to Main
+
+name: Update id
+
+on:
+    push:
+        branches: ['main']
+        paths: ['profile/**']
+    workflow_dispatch:
+
+jobs:
+    update:
+        runs-on: ubunut-latest
+
+        
