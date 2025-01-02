@@ -6,7 +6,9 @@ from datetime import datetime
 input_dir = os.path.abspath('data')
 
 # Get the list of filenames from the command line arguments
-filenames_to_update = sys.argv[1:]
+filenames_to_update_raw = sys.argv[1:]
+
+filenames_to_update = [filename[5:] for filename in filenames_to_update_raw]
 
 for filename in filenames_to_update:
     if filename.endswith('.json'):
