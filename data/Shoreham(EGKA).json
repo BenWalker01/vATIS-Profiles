@@ -1,7 +1,7 @@
 {
   "Name": "Shoreham",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Shoreham(EGKA).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Shoreham",
@@ -18,6 +18,10 @@
         {
           "String": "EGKA",
           "Spoken": "ECHO GOLF KILO ALPHA"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 30980,
@@ -42,48 +46,48 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 02. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^02. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "20",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 20. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^20. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "06",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 06. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^06. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "24",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 24. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^24. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "13",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 13. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^13. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "31",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 31. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "SHOREHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^31. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -123,12 +127,17 @@
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKA.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGKA.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.405 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.405 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

@@ -18,6 +18,10 @@
         {
           "String": "EGLC",
           "Spoken": "ECHO GOLF LIMA CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 36355,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 27. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^27. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 09. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LONDON CITY INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^09. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -94,18 +98,23 @@
           "Enabled": false
         },
         {
-          "Ordinal": 10,
+          "Ordinal": 9,
           "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.080.",
           "Enabled": false
         },
         {
+          "Ordinal": 10,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGLC.",
+          "Enabled": false
+        },
+        {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLC.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
           "Enabled": false
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
@@ -177,6 +186,10 @@
         {
           "String": "EGKB",
           "Spoken": "ECHO GOLF KILO BRAVO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 35680,
@@ -201,20 +214,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 21. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^21. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "03",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 03. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BIGGIN HILL INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^03. [TL]. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -254,12 +267,17 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKB.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGKB.",
           "Enabled": false
         },
         {
-          "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.805 WHEN READY FOR START.",
+          "Ordinal": 10,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
@@ -331,6 +349,10 @@
         {
           "String": "EGMC",
           "Spoken": "ECHO GOLF MIKE CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 36055,
@@ -355,27 +377,27 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY 23, DEPARTURE RUNWAY 05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] ARRIVAL RUNWAY ^23, DEPARTURE RUNWAY ^05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         },
         {
           "Name": "23",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 23. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^23. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         },
         {
           "Name": "05",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
+          "Template": "SOUTHEND INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^05. AIRFIELD INFORMATION. [WX]. [ARPT_COND] [NOTAMS]. ON FIRST CONTACT REPORT ALTIMETER SETTING AND INFORMATION [ATIS_CODE] RECEIVED."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -414,13 +436,18 @@
           "Enabled": false
         },
         {
-          "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGMC.",
+          "Ordinal": 9,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGMC.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 127.730 WHEN READY FOR START.",
+          "Ordinal": 10,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 127.730 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

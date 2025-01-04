@@ -1,7 +1,7 @@
 {
   "Name": "Birmingham",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Birmingham(EGBB).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Birmingham",
@@ -18,6 +18,10 @@
         {
           "String": "EGBB",
           "Spoken": "ECHO GOLF BRAVO BRAVO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 36030,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 33. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^33. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "15",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 15. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BIRMINGHAM INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^15. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -105,12 +109,17 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGBB.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGBB.",
           "Enabled": false
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.930 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.930 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

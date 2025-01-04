@@ -1,7 +1,7 @@
 {
   "Name": "Cranfield",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Cranfield(EGTC).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Cranfield",
@@ -18,6 +18,10 @@
         {
           "String": "EGTC",
           "Spoken": "ECHO GOLF TANGO CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 21880,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 03. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^03. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "21",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 21. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "CRANFIELD INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^21. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -95,18 +99,23 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGTC.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGTC.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.930 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.930 WHEN READY FOR START.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

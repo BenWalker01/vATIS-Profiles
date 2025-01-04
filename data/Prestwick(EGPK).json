@@ -1,7 +1,7 @@
 {
   "Name": "Prestwick",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Prestwick(EGPK).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Prestwick",
@@ -18,6 +18,10 @@
         {
           "String": "EGPK",
           "Spoken": "ECHO GOLF PAPA KILO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 21130,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 30. [WX]. [ARPT_COND] [NOTAMS]"
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^30. [WX]. [ARPT_COND] [NOTAMS]"
         },
         {
           "Name": "12",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 12. [WX]. [ARPT_COND] [NOTAMS]"
+          "Template": "PRESTWICK INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^12. [WX]. [ARPT_COND] [NOTAMS]"
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -95,12 +99,17 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPK.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGPK.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.150 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.150 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

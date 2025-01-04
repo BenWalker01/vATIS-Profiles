@@ -18,6 +18,10 @@
         {
           "String": "EGNH",
           "Spoken": "ECHO GOLF NOVEMBER HOTEL"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 27205,
@@ -42,34 +46,34 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 28. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^28. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "10",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 10. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^10. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "31",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 31. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^31. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "13",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 13. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "BLACKPOOL INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^13. [WX]. [ARPT_COND] [NOTAMS]. ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -108,13 +112,18 @@
           "Enabled": false
         },
         {
-          "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNH.",
+          "Ordinal": 9,
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGNH.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.405 WHEN READY FOR START.",
+          "Ordinal": 10,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.405 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
@@ -147,6 +156,10 @@
         {
           "String": "EGNO",
           "Spoken": "ECHO GOLF NOVEMBER OSCAR"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 21730,
@@ -171,20 +184,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^25. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "WARTON INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^07. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -224,12 +237,17 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNO.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGNO.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 130.805 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 130.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

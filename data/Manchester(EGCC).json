@@ -1,7 +1,7 @@
 {
   "Name": "Manchester",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Manchester(EGCC).json",
-  "updateSerial": 2025010201,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "name": "Manchester",
@@ -26,7 +26,7 @@
           "name": "23R",
           "airportConditions": "",
           "notams": "",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 23R. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY ^23R. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -34,35 +34,35 @@
         {
           "name": "23 Duals",
           "notams": "",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 23R, DEPARTURE RUNWAY 23L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY ^23R, DEPARTURE RUNWAY ^23L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "05L",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 05L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY ^05L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "05 Duals",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY 05R, DEPARTURE RUNWAY 05L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. ARRIVAL RUNWAY ^05R, DEPARTURE RUNWAY ^05L. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "23L",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 23L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY ^23L. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "05R",
-          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY 05R. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
+          "template": "MANCHESTER INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE RWY ^05R. SINGLE RUNWAY OPERATIONS. [TL]. [WX]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
             "enabled": false
           }
@@ -100,12 +100,16 @@
         {
           "String": "EGCC",
           "Spoken": "ECHO GOLF CHARLIE CHARLIE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -155,12 +159,17 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGCC.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGCC.",
           "Enabled": false
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.705 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

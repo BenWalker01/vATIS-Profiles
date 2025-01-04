@@ -1,7 +1,7 @@
 {
   "Name": "Humberside",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Humberside(EGNJ).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Humberside",
@@ -18,6 +18,10 @@
         {
           "String": "EGNJ",
           "Spoken": "ECHO GOLF NOVEMBER JULIET"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 24130,
@@ -42,34 +46,34 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 02. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^02. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "20",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 20. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^20. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "08",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 08. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^08. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "26",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 26. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "HUMBERSIDE INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^26. [TL]. [WX]. [ARPT_COND] [NOTAMS]  ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -109,18 +113,23 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNJ.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGNJ.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 124.905 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 124.905 WHEN READY FOR START.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

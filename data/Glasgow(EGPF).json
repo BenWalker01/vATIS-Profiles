@@ -1,7 +1,7 @@
 {
   "Name": "Glasgow",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Glasgow(EGPF).json",
-  "updateSerial": 2025010200,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "Name": "Glasgow",
@@ -18,6 +18,10 @@
         {
           "String": "EGPF",
           "Spoken": "ECHO GOLF PAPA FOXTROT"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 29575,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLASGOW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 23. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLASGOW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^23. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "05",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLASGOW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE 05. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLASGOW INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^05. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -100,12 +104,17 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGPF.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGPF.",
           "Enabled": false
         },
         {
-          "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
+          "Ordinal": 12,
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.705 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],

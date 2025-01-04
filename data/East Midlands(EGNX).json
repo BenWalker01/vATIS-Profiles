@@ -18,6 +18,10 @@
         {
           "String": "EGNX",
           "Spoken": "ECHO GOLF NOVEMBER X-RAY"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 22680,
@@ -42,14 +46,14 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [WX]. [TL].  [ARPT_COND] [NOTAMS]"
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^27. [WX]. [TL].  [ARPT_COND] [NOTAMS]"
         },
         {
           "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [WX]. [TL].  [ARPT_COND] [NOTAMS]"
+          "Template": "EAST MIDLANDS INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^09. [WX]. [TL].  [ARPT_COND] [NOTAMS]"
         }
       ],
       "AirportConditionDefinitions": [
@@ -100,12 +104,17 @@
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNX.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGNX.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.905 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.905 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
