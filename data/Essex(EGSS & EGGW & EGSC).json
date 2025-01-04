@@ -124,7 +124,7 @@
         },
         {
           "Ordinal": 13,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
@@ -235,7 +235,7 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^s07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
@@ -306,7 +306,7 @@
         },
         {
           "Ordinal": 14,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
@@ -481,7 +481,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO.",
           "Enabled": false
         }
       ],
