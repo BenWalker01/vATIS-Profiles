@@ -18,6 +18,10 @@
         {
           "String": "EGBJ",
           "Spoken": "ECHO GOLF BRAVO JULIET"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 27480,
@@ -42,34 +46,34 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 04. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^04. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "22",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 22. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^22. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "09",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 09. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^09. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         },
         {
           "Name": "27",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 27. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "GLOUCESTERSHIRE INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^27. [TL] [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -109,12 +113,12 @@
         },
         {
           "Ordinal": 10,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGBJ.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGBJ.",
           "Enabled": false
         },
         {
           "Ordinal": 11,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.905 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 122.905 WHEN READY FOR START.",
           "Enabled": false
         },
         {

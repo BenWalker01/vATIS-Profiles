@@ -18,6 +18,10 @@
         {
           "String": "EGNM",
           "Spoken": "ECHO GOLF NOVEMBER MIKE"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 18030,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 32. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^32. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
         },
         {
           "Name": "14",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 14. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
+          "Template": "LEEDS BRADFORD INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^14. [TL]. [WX]. [ARPT_COND] [NOTAMS]  THRESHOLD ELEVATION 662 FEET."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -100,12 +104,12 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNM.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGNM.",
           "Enabled": false
         },
         {
           "Ordinal": 7,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.805 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.805 WHEN READY FOR START.",
           "Enabled": false
         },
         {

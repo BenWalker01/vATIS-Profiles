@@ -16,12 +16,12 @@
           "Spoken": "LOG ON"
         },
         {
-          "String": "DATALINK",
-          "Spoken": "DAYTA LINK"
-        },
-        {
           "String": "EGPD",
           "Spoken": "ECHO GOLF PAPA DELTA"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 21855,
@@ -99,12 +99,12 @@
         },
         {
           "Ordinal": 9,
-          "Text": "GROUND IS CLOSED, @ATC CONTINUES WITH TOWER ON 118.105.",
+          "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.105.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON EGPD.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGPD.",
           "Enabled": false
         },
         {

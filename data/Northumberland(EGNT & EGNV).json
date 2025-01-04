@@ -18,6 +18,10 @@
         {
           "String": "EGNT",
           "Spoken": "ECHO GOLF NOVEMBER TANGO"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 18380,
@@ -42,20 +46,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 25. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^25. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
         },
         {
           "Name": "07",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE 07. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
+          "Template": "NEWCASTLE INFORMATION, ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE], TIME [TIME] RUNWAY IN USE ^07. [TL]. [WX]. [ARPT_COND] [NOTAMS]. THRESHOLD ELEVATION 239 FEET."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -100,12 +104,12 @@
         },
         {
           "Ordinal": 11,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNT.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGNT.",
           "Enabled": false
         },
         {
           "Ordinal": 12,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.730 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.730 WHEN READY FOR START.",
           "Enabled": false
         },
         {
@@ -186,6 +190,10 @@
         {
           "String": "EGNV",
           "Spoken": "ECHO GOLF NOVEMBER VICTOR"
+        },
+        {
+          "String": "DATALINK",
+          "Spoken": "DAYTA LINK"
         }
       ],
       "AtisFrequency": 32380,
@@ -210,20 +218,20 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 23. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE ^23. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
         },
         {
           "Name": "05",
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE 05. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
+          "Template": "THIS IS TEESIDE INFORMATION [ATIS_CODE] AT TIME [TIME] RUNWAY IN USE ^05. [TL]. [WX]. [ARPT_COND] [NOTAMS] ADVISE ATC THAT YOU HAVE COPIED INFORMATION [ATIS_CODE]."
         }
       ],
       "AirportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -263,12 +271,12 @@
         },
         {
           "Ordinal": 9,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNV.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGNV.",
           "Enabled": false
         },
         {
           "Ordinal": 10,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.805 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.805 WHEN READY FOR START.",
           "Enabled": false
         },
         {
