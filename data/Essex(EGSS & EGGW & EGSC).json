@@ -109,7 +109,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGSS.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGSS.",
           "Enabled": false
         },
         {
@@ -291,7 +291,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGGW.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGGW.",
           "Enabled": false
         },
         {
@@ -471,7 +471,7 @@
         },
         {
           "Ordinal": 9,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGSC.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGSC.",
           "Enabled": false
         },
         {

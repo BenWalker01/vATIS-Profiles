@@ -109,7 +109,7 @@
         },
         {
           "Ordinal": 11,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGBB.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGBB.",
           "Enabled": false
         },
         {

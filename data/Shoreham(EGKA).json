@@ -127,7 +127,7 @@
         },
         {
           "Ordinal": 10,
-          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON @EGKA.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, @LOGON @EGKA.",
           "Enabled": false
         },
         {
