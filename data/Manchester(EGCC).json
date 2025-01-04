@@ -1,7 +1,7 @@
 {
   "Name": "Manchester",
   "updateUrl": "https://raw.githubusercontent.com/BenWalker01/vATIS-Profiles/refs/heads/main/data/Manchester(EGCC).json",
-  "updateSerial": 2025010201,
+  "updateSerial": 2025010401,
   "stations": [
     {
       "name": "Manchester",
