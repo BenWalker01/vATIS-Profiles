@@ -25,24 +25,24 @@
         {
           "name": "Runway 26L",
           "airportConditions": "",
-          "notams": "ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26L (Delivery Closed)",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. @ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26L (Delivery and Ground Closed)",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. @ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
@@ -50,72 +50,72 @@
         {
           "name": "Runway 26L (Delivery, Ground and Tower Closed)",
           "airportConditions": "",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. @ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26L. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 08R",
-          "notams": "ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 08R (Delivery Closed)",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY IS CLOSED. @ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 08R (Delivery and Ground Closed)",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY AND GROUND ARE CLOSED. @ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 08R (Delivery, Ground and Tower Closed)",
-          "notams": "ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "@ILS APPROACH TO BE EXPECTED. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. @ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^08R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26R",
-          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "PILOTS SHOULD EXPECT AN @RNP APPROACH. RUNWAY IN USE IS ^26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. DEPARTURE FLIGHT CREW MUST REPORT READY WITH GATWICK DELIVERY ON 121.955",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26R (Delivery Closed)",
-          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY IS CLOSED. ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "PILOTS SHOULD EXPECT AN @RNP APPROACH. RUNWAY IN USE IS ^26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY IS CLOSED. @ATC SERVICE CONTINUES ON GATWICK GROUND 121.805",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26R (Delivery and Ground Closed)",
-          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY AND GROUND ARE CLOSED. ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "PILOTS SHOULD EXPECT AN @RNP APPROACH. RUNWAY IN USE IS ^26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY AND GROUND ARE CLOSED. @ATC SERVICE CONTINUES ON TOWER FREQUENCY 124.230",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "name": "Runway 26R (Delivery, Ground and Tower Closed)",
-          "notams": "PILOTS SHOULD EXPECT AN RNP APPROACH. RUNWAY IN USE IS 26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITELIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
-          "template": "EGKK COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
+          "notams": "PILOTS SHOULD EXPECT AN @RNP APPROACH. RUNWAY IN USE IS ^26R. THIS RUNWAY HAS TWO SYNCHRONISED FLASHING WHITE LIGHTS, ONE AT EACH END OF THE THRESHOLD BAR. GATWICK DELIVERY, GROUND AND TOWER ARE CLOSED. @ATC SERVICE CONTINUES ON DIRECTOR FREQUENCY 126.825",
+          "template": "+EGKK @COM ATIS [ATIS_CODE] [OBS_TIME]. RWY IN USE ^26R. [TL]. [NOTAMS] [WX]. [ARPT_COND] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND FOR DEPARTURES, ADVISE AIRCRAFT TYPE ON FIRST CONTACT",
           "externalGenerator": {
             "enabled": false
           }
@@ -123,64 +123,44 @@
       ],
       "contractions": [
         {
-          "string": "26L",
-          "spoken": "TWO SIX LEFT"
-        },
-        {
-          "string": "26R",
-          "spoken": "TWO SIX RIGHT"
-        },
-        {
-          "string": "08L",
-          "spoken": "ZERO EIGHT LEFT"
-        },
-        {
-          "string": "08R",
-          "spoken": "ZERO EIGHT RIGHT"
-        },
-        {
           "string": "HPA",
-          "spoken": "HECTO-PASKALS"
+          "spoken": "HECTO PASKALS"
         },
         {
           "string": "RNAV",
-          "spoken": "ARE-NAV"
+          "spoken": "ARE NAV"
         },
         {
           "string": "CAVOK",
-          "spoken": "CAV-OH-KAY"
+          "spoken": "CAV OH KAY"
         },
         {
           "string": "RNP",
-          "spoken": "ARE-ENN-PEE"
+          "spoken": "ARE ENN PEE"
         },
         {
           "string": "WIP",
-          "spoken": "WORK-IN-PROGRESS"
+          "spoken": "WORK IN PROGRESS"
         },
         {
           "string": "ILS",
-          "spoken": "EYE-ELL-ESS"
+          "spoken": "EYE ELL ESS"
         },
         {
           "string": "ATC",
-          "spoken": "AY-TEE-SEE"
+          "spoken": "AY TEE SEE"
         },
         {
           "string": "DATALINK",
-          "spoken": "DATA-LINK"
+          "spoken": "DAYTA LINK"
         },
         {
           "string": "26L/08R",
-          "spoken": "TWO-SIX-LEFT-ZERO-EIGHT-RIGHT"
-        },
-        {
-          "String": "LOGON EGKK",
-          "Spoken": "LOG ON ECHO GOLF KILO KILO"
+          "spoken": "TWO SIX LEFT ZERO EIGHT RIGHT"
         },
         {
           "string": "EGKK",
-          "spoken": "GATWICK"
+          "spoken": "ECHO GOLF KILO KILO"
         },
         {
           "String": "LVPS",
@@ -188,13 +168,13 @@
         },
         {
           "string": "COM",
-          "spoken": " "
+          "spoken": "COMBINED"
         }
       ],
       "airportConditionDefinitions": [
         {
           "Ordinal": 1,
-          "Text": "LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
+          "Text": "@LVPS IN FORCE. PILOTS ARE REMINDED THAT USE OF THE CAT 3 HOLDING POINTS IS MANDATORY",
           "Enabled": false
         },
         {
@@ -229,12 +209,12 @@
         },
         {
           "Ordinal": 8,
-          "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGKK.",
+          "Text": "@DATALINK CLEARANCES ARE AVAILABLE, LOGON EGKK.",
           "Enabled": false
         },
         {
           "Ordinal": 9,
-          "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
+          "Text": "PILOTS THAT ARE IN RECEIPT OF @DATALINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.955 WHEN READY FOR START.",
           "Enabled": false
         },
         {
@@ -249,7 +229,12 @@
         },
         {
           "Ordinal": 12,
-          "Text": "AIRCRAFT VACATING VIA TWY ER MUST MAKE THE FIRST RIGHT ONTO TWY 08L.",
+          "Text": "AIRCRAFT VACATING VIA TWY ER MUST MAKE THE FIRST RIGHT ONTO TWY ^08L.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],
@@ -305,11 +290,7 @@
           }
         },
         "closingStatement": {
-          "autoIncludeClosingStatement": true,
-          "template": {
-            "text": "...ADVS YOU HAVE INFO {letter}",
-            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
-          }
+          "autoIncludeClosingStatement": false
         }
       }
     },
@@ -439,6 +420,11 @@
         {
           "Ordinal": 11,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 119.605 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],

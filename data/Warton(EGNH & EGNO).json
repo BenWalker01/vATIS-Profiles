@@ -108,13 +108,18 @@
           "Enabled": false
         },
         {
-          "Ordinal": 11,
+          "Ordinal": 9,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGNH.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
+          "Ordinal": 10,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 118.405 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],
@@ -230,6 +235,11 @@
         {
           "Ordinal": 10,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 130.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],

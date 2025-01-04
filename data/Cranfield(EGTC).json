@@ -107,6 +107,11 @@
           "Ordinal": 11,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

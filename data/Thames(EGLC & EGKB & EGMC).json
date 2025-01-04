@@ -94,18 +94,23 @@
           "Enabled": false
         },
         {
-          "Ordinal": 10,
+          "Ordinal": 9,
           "Text": "GROUND IS CLOSED, ATC CONTINUES WITH TOWER ON 118.080.",
           "Enabled": false
         },
         {
-          "Ordinal": 11,
+          "Ordinal": 10,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGLC.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
+          "Ordinal": 11,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT GROUND ON 121.830 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 12,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],
@@ -258,8 +263,13 @@
           "Enabled": false
         },
         {
-          "Ordinal": 7,
+          "Ordinal": 10,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 134.805 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],
@@ -414,13 +424,18 @@
           "Enabled": false
         },
         {
-          "Ordinal": 11,
+          "Ordinal": 9,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGMC.",
           "Enabled": false
         },
         {
-          "Ordinal": 12,
+          "Ordinal": 10,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 127.730 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],

@@ -112,6 +112,11 @@
           "Ordinal": 12,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT DELIVERY ON 121.980 WHEN READY FOR START.",
           "Enabled": false
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],

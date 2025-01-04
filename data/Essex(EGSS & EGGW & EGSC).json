@@ -117,6 +117,11 @@
           "Ordinal": 13,
           "Text": "REPORT IF YOU ARE ABLE TO USE THE EAST AND WEST TAXI LINES ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 13,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Enabled": false
         }
       ],
       "notamDefinitions": [],
@@ -290,6 +295,11 @@
           "Ordinal": 13,
           "Text": "REPORT IF YOU REQUIRE BACKTRACK ON FIRST CONTACT.",
           "Enabled": true
+        },
+        {
+          "Ordinal": 14,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
+          "Enabled": false
         }
       ],
       "NotamDefinitions": [],
@@ -448,13 +458,18 @@
           "Enabled": false
         },
         {
-          "Ordinal": 11,
+          "Ordinal": 9,
           "Text": "DATA-LINK CLEARANCES ARE AVAILABLE, LOGON EGSC.",
           "Enabled": false
         },
         {
-          "Ordinal": 7,
+          "Ordinal": 10,
           "Text": "PILOTS THAT ARE IN RECEIPT OF DATA-LINK CLEARANCES ARE REMINDED THAT THEY MUST CONTACT TOWER ON 125.905 WHEN READY FOR START.",
+          "Enabled": false
+        },
+        {
+          "Ordinal": 11,
+          "Text": "ONLY CALL FOR PUSH ONCE THE TUG IS CONNECTED AND READY TO GO",
           "Enabled": false
         }
       ],
