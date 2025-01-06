@@ -199,14 +199,14 @@
         },
         {
           "String": "EGGW",
-          "Spoken": "ECHO GOLF GOLF WHISKY"
+          "Spoken": "ECHO GOLF GOLF WHISKEY"
         },
         {
           "String": "DATALINK",
           "Spoken": "DAYTA LINK"
         }
       ],
-      "AtisFrequency": 20580,
+      "AtisFrequency": 27180,
       "ObservationTime": {
         "Enabled": false,
         "Time": 0
@@ -235,7 +235,7 @@
           "AirportConditions": null,
           "Notams": null,
           "ArbitraryText": null,
-          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^s07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
+          "Template": "LUTON INFORMATION [ATIS_CODE], TIME [TIME] AUTOMATIC. RUNWAY IN USE ^07. [TL]. [WX]. [ARPT_COND] [NOTAMS] ACKNOWLEDGE RECEIPT OF INFORMATION [ATIS_CODE] AND ADVISE AIRCRAFT TYPE ON FIRST CONTACT."
         }
       ],
       "AirportConditionDefinitions": [
@@ -310,8 +310,6 @@
           "Enabled": false
         }
       ],
-      "NotamDefinitions": [],
-      "airportConditionDefinitions": [],
       "notamDefinitions": [],
       "atisFormat": {
         "altimeter": {
